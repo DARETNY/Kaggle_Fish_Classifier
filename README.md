@@ -177,7 +177,7 @@ In this section, we define the datasets for training and validation, and set up 
   ```
 ### Model Setup
 In this section, we will establish the foundational components needed for our neural network model, including model architecture, loss function, optimizer, and metric tracking for training performance.
-- [ ] fotografı yükle model= olanı
+![Uygulama Ekran Görüntüsü]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/DARETNY/Kaggle_Fish_Classifier/blob/main/I%CC%87mage_of_repo/Code_img/Model.png?raw=true))
 
 - *Model Creation*:
   We instantiate the `SimpleANN` model, which is designed to take input images reshaped into a flat array of pixels. The input size is calculated as `3*128*128`, where:
