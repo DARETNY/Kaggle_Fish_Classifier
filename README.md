@@ -1,7 +1,7 @@
 
 # Fish Image Classification with Artificial Neural Network (ANN)
 
-This project involves building and training an Artificial Neural Network (ANN) model using PyTorch to classify different species of fish based on image data. The images are preprocessed and resized to 224x224 RGB format, and the model is trained on this dataset for classification purposes.
+This project involves building and training an Artificial Neural Network (ANN) model using PyTorch to classify different species of fish based on image data. The images are preprocessed and resized to 128x128 RGB format, and the model is trained on this dataset for classification purposes.
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Requirements](#requirements)
@@ -43,7 +43,7 @@ This project uses a dataset of fish images, which are classified into multiple s
 
 ### Key Features of the Dataset	
 - Image Format: PNG
-- Image Dimensions: 224x224 pixels (resized to a uniform size)
+- Image Dimensions: 128x128 pixels (resized to a uniform size)
 - Color Mode: RGB
 - Total Images: `(9000)`
 ### Class Distribution
