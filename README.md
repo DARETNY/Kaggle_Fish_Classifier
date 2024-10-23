@@ -111,7 +111,8 @@ train_df, val_df = train_test_split(image_df, test_size=0.2, random_state=42, st
 ## Model Architecture
 In this project, we developed a simple artificial neural network (ANN) model using PyTorch for classifying fish species. The model is designed to take images resized to 128x128 pixels as input and classify them into one of nine fish species. Below is a detailed explanation of the model architecture and its components.
 
-- [ x ] image yükle ANN olanı
+![image](https://github.com/user-attachments/assets/0ce7b03d-d6eb-4518-8d29-61f6f099664e)
+
 
 ` Explanation of Each Component : `
 ```
@@ -177,7 +178,8 @@ In this section, we define the datasets for training and validation, and set up 
   ```
 ### Model Setup
 In this section, we will establish the foundational components needed for our neural network model, including model architecture, loss function, optimizer, and metric tracking for training performance.
-![Uygulama Ekran Görüntüsü]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/DARETNY/Kaggle_Fish_Classifier/blob/main/I%CC%87mage_of_repo/Code_img/Model.png?raw=true))
+![image](https://github.com/user-attachments/assets/4df52484-dd80-48cb-aba9-19c628eb05d6)
+
 
 - *Model Creation*:
   We instantiate the `SimpleANN` model, which is designed to take input images reshaped into a flat array of pixels. The input size is calculated as `3*128*128`, where:
@@ -207,7 +209,8 @@ val_accuracies.clear()
 ## Installation
 
   This document provides an overview of the `train` and `validate` functions used for training and evaluating a machine learning model using PyTorch. The code structure includes the training loop for multiple epochs and the calculation of both training and validation metrics.
-  - [ ] fotogrof yükle train
+  ![image](https://github.com/user-attachments/assets/bfd1a117-90d1-46b2-8a37-7c8aa14e5069)
+
   **Parameters** :
   - dataloader: A PyTorch DataLoader that provides batches of training data.
   - model: The neural network model to be trained.
