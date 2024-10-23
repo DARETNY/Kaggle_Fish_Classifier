@@ -209,7 +209,8 @@ val_accuracies.clear()
 ## Installation
 
   This document provides an overview of the `train` and `validate` functions used for training and evaluating a machine learning model using PyTorch. The code structure includes the training loop for multiple epochs and the calculation of both training and validation metrics.
-  ![image](https://github.com/user-attachments/assets/bfd1a117-90d1-46b2-8a37-7c8aa14e5069)
+  ![image](https://github.com/user-attachments/assets/196e02c3-1183-4942-8a51-18d22a38119f)
+
 
   **Parameters** :
   - dataloader: A PyTorch DataLoader that provides batches of training data.
