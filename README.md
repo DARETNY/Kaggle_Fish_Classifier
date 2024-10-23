@@ -239,6 +239,9 @@ val_accuracies.clear()
   *We prepared similar codes in the validation section, now let's see our results.*
 
 ## Results
-   The dataset was divided into training and validation sets. The model was trained using the training set and evaluated using the validation set. Tracked training and validation losses and accuracies. To further evaluate the model's performance, the F1 score was calculated.You can check the project insert to further more information:[Click to open the project](https://colab.research.google.com/drive/1zrrzMlRB_MGcYDRkq4QGVWs7-UqFmfiM?usp=sharing)
+   The dataset was divided into training and validation sets. The model was trained using the training set and evaluated using the validation set. Tracked training and validation losses and accuracies. To further evaluate the model's performance, the F1 score was calculated.You can check the project insert to further more information:
+  - [Click to open the google colab](https://colab.research.google.com/drive/1zrrzMlRB_MGcYDRkq4QGVWs7-UqFmfiM?usp=sharing)
+
+  - [Click to open the kaglelink ](https://www.kaggle.com/code/kadirallolu/fish-image-classification-with-artificial-neural-n)
    
 
