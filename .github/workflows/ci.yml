@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: |
+          # Add your specific test commands here, e.g., pytest, unittest, etc.
+          pytest
+
+      - name: Run project-specific commands
+        run: |
+          echo Preprocessing data...
+          python preprocess.py  # Add your data preprocessing script here
+
+          echo Training model...
+          python train.py  # Add your model training script here
+
+          echo Evaluating model...
+          python evaluate.py  # Add your model evaluation script here
